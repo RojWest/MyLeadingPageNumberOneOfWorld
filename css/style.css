@@ -74,7 +74,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + label:before {
-  background-color: green;
+  background-image: url(../img/small_img/checkbox-bg.png);
 }
 
 .checkbox-label {
