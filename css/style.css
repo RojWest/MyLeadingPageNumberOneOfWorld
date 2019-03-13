@@ -87,6 +87,10 @@ input[type="checkbox"]:checked + label:before {
   margin-right: 40px;
 }
 
+.checkbox-label:hover {
+  cursor: pointer;
+}
+
 .checkbox-label:before {
   content: '';
   width: 30px;
