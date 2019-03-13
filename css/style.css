@@ -62,6 +62,13 @@ body {
   color: #fff;
 }
 
+.input {
+  width: 300px;
+  height: 80px;
+  padding: 30px;
+  border: 1px solid #dddddd;
+}
+
 @media (min-width: 576px) {
   .button-o {
     font-size: 10px;
@@ -246,7 +253,58 @@ body {
 }
 
 .offer-block {
+  width: 1170px;
+  height: 700px;
   background-color: #fff;
   padding: 80px;
+}
+
+.offer__title {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  margin-bottom: 20px;
+}
+
+.offer__subtitle {
+  display: block;
+  font-size: 21px;
+  margin-bottom: 48px;
+}
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 900px;
+}
+
+.form__label {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.form__group {
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+}
+
+.form__input {
+  width: 100%;
+  border-right-width: 0px;
+}
+
+.form__input:last-child {
+  border-right-width: 1px;
+}
+
+.form__checkbox {
+  display: block;
+  margin: 10px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
