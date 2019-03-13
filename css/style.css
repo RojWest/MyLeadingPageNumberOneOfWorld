@@ -254,7 +254,7 @@ body {
 
 .offer-block {
   width: 1170px;
-  height: 700px;
+  height: 540px;
   background-color: #fff;
   padding: 80px;
 }
@@ -306,5 +306,10 @@ body {
   display: block;
   margin: 10px;
   margin-bottom: 10px;
+}
+
+.form__button {
+  width: 300px;
+  height: 80px;
 }
 /*# sourceMappingURL=style.css.map */
