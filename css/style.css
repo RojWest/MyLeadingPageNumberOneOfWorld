@@ -69,6 +69,32 @@ body {
   border: 1px solid #dddddd;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: green;
+}
+
+.checkbox-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 40px;
+}
+
+.checkbox-label:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dddddd;
+  margin-right: 20px;
+}
+
 @media (min-width: 576px) {
   .button-o {
     font-size: 10px;
@@ -304,8 +330,9 @@ body {
 
 .form__checkbox {
   display: block;
-  margin: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 25px;
 }
 
 .form__button {
